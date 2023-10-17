@@ -1,0 +1,13 @@
+[title="first"]
+{
+    color:red;
+}
+
+[title~="fifth"] {
+    color: burlywood;
+}
+
+[title="fifth"] {
+    color: aqua;
+}
+
