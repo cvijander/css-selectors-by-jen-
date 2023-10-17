@@ -1,0 +1,11 @@
+p.myclass {
+    color: red;
+}
+
+ul.myclass {
+    color: blue;
+}
+
+p#myid {
+    background-color: yellow;
+}
