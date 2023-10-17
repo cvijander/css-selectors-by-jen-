@@ -1,0 +1,15 @@
+a {
+    color:red;
+}
+
+p a {
+    color:green;
+} 
+
+ul a {
+    color: orange;
+}
+
+li a {
+    color: aqua;
+}
