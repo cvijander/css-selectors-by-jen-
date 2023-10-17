@@ -1,0 +1,15 @@
+strong:only-child {
+    color: red;
+}
+
+h2:only-of-type {
+    color: aqua;
+}
+
+p:only-of-type {
+    color: green;
+}
+
+article p:only-of-type {
+    background-color: yellow;
+}
