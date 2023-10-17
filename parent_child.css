@@ -1,0 +1,7 @@
+article >p {
+    color: red;
+}
+
+aside p > strong {
+    color: blue;
+}
