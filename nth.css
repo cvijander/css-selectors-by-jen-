@@ -1,0 +1,15 @@
+li:nth-child(even) {
+    background-color: orange;
+}
+
+li:nth-child(8) {
+    color: red;
+}
+
+li:nth-child(3n +3) {
+    color: yellow;
+}
+
+li:nth-last-child(2n+1) {
+    border: 1px solid black;
+}
