@@ -1,0 +1,15 @@
+li:first-child {
+    color:red;
+}
+
+li:last-child {
+    color: aquamarine;
+}
+
+p:first-of-type {
+    color: blueviolet;
+}
+
+p:last-of-type {
+    color: chocolate;
+}
