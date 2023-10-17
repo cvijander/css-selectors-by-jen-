@@ -1,0 +1,8 @@
+a[href*="http"] {
+    background: url(https://upload.wikimedia.org/wikipedia/commons/6/64/Icon_External_Link.png) no-repeat right;
+    padding-right: 14px;
+}
+
+a[href*="http"]::after {
+    content: "(goes )";
+}
