@@ -1,0 +1,14 @@
+[title^="fi"]
+{
+    color:red;
+}
+
+[title$="th"] {
+    border: gray 2px solid;
+}
+
+[title*="fi"]{
+    background-color: yellow;
+}
+
+
