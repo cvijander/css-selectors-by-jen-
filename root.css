@@ -1,0 +1,24 @@
+
+:root {
+    --standard-size: 1rem;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+div:empty {
+    background-color: gold;
+}
+
+.container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: var(--standard-size);
+    max-width: 900px;
+    margin: 0 auto;
+}
+
+.cell {
+    background-color: tomato;
+    color: white;
+    padding: var(--standard-size);
+    border-radius: 0.5rem;
+}
