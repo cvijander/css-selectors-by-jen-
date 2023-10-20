@@ -1,0 +1,14 @@
+h1,
+h2,
+h3 {
+    font-family: Arial, Helvetica;
+}
+
+article h2,
+article h3 {
+    border-bottom: 2px solid green;
+}
+
+:is(article, aside) :is(h1, h2, h3) {
+    border-bottom: 5px solid pink;
+}
